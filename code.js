@@ -47,5 +47,6 @@ for(i=0;i<animations.length;i++){
 
 function changeFrame(name){
     src = animations.find(element => element.name == name).src;
-    document.getElementById("frame").src = src;   
+    document.getElementById("frame").src = src;
+    document.getElementById("frame").focus();
 }
