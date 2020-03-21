@@ -17,6 +17,11 @@ body{
     margin: 0;
 }
 
+/* applied to the animation's body tag */
+#animation{
+    background-color: rgb(68, 68, 90);
+}
+
 iframe{
     width: 100%;
     height: 100%;
