@@ -14,13 +14,13 @@ const diff = 10;
 let scoreElem;
 
 function setup() {
-    scoreElem = createDiv('Score = 0');
-  scoreElem.position(250, 20);
+  scoreElem = createDiv('Score = 0');
+  scoreElem.position(windowWidth*5/100, windowHeight*5/100);
   scoreElem.id = 'score';
-  scoreElem.style('color', 'white');
+  scoreElem.style('color', 255, 100, 100);
     createCanvas(windowWidth, windowHeight);
     frameRate(15);
-    stroke(255);
+    stroke(255, 100, 100);
     strokeWeight(10);
     updateFruitCoordinates();
 
@@ -32,7 +32,7 @@ function setup() {
 
 
 function draw() {
-    background(0);
+    background(255, 200, 200);
     for (let i = 0; i < numSegments - 1; i++) {
       line(xCor[i], yCor[i], xCor[i + 1], yCor[i + 1]);
     }
