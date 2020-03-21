@@ -6,10 +6,10 @@ let animations = [
         "src": "animations/circles.html"
     },
     {
-        "name": "test",
-        "description": "test",
-        "thumbnail": "https://picsum.photos/200/200",
-        "src": "https://wikipedia.com"
+        "name": "Pulse",
+        "description": "Beep Bloop",
+        "thumbnail": "thumbnails/pulse.png",
+        "src": "animations/pulse.html"
     }
 ];
 
