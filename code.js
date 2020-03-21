@@ -10,6 +10,12 @@ let animations = [
         "description": "Beep Bloop",
         "thumbnail": "thumbnails/pulse.png",
         "src": "animations/pulse.html"
+    },
+    {
+        "name": "SnakeGame",
+        "description": "Beep Bloop",
+        "thumbnail": "thumbnails/SnakeGame.png",
+        "src": "animations/SnakeGame.html"
     }
 ];
 
